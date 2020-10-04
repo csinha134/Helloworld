@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int r=10;
+    printf("Enter the radius of the circle");
+    scanf("%d",&r);
+    int A = 3.14*r*r;
+    int P = 2*3.14*r;
+    printf("The Area of the circle of the radius %d is %d",r,A);
+    printf("\n The Perimeter of the circle of the radius %d is %d",r,P);
+    
+}  
